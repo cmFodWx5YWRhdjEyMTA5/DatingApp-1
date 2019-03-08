@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.bdating.UserAboutFragment">
+
+    <TextView
+        android:layout_margin="15dp"
+        android:textAllCaps="false"
+        android:id="@+id/txtAboutUs"
+        android:text="Not Updated"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

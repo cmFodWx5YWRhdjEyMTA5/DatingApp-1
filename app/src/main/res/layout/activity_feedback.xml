@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="com.example.brill.bdatingapp.LoginActivity"
+    android:background="@drawable/backg">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="40dp"
+        app:cardBackgroundColor="#ffffff"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/chkIssue"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Issue"
+                    android:textColor="#2F4F4F"
+                    android:buttonTint="#e74c3c"
+                    android:textStyle="normal"
+                    android:visibility="gone"/>
+                <CheckBox
+                    android:id="@+id/chkSuggestion"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suggestion"
+                    android:textColor="#2F4F4F"
+                    android:buttonTint="#e74c3c"
+                    android:textStyle="normal"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edtIssue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext1"
+                android:hint="Message Title"
+                android:drawablePadding="10dp"
+                android:padding="7dp"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textSize="12dp"
+                android:textColor="#334249"
+                android:textColorHint="#334249"
+                android:layout_margin="10dp"/>
+           <!-- <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext1"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:padding="7dp"
+                android:backgroundTint="#f4f4f4"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColorHint="#808080"/>
+-->
+            <EditText
+
+                android:id="@+id/edtDescIssue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext1"
+                android:hint="Query / Complaint"
+                android:gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:padding="7dp"
+                android:textSize="12dp"
+                android:lines="4"
+                android:maxLines="5"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:textColor="#334249"
+                android:textColorHint="#334249"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:background="@drawable/ic_wallpaper_black_24dp"
+                    android:textStyle="bold"
+                    android:textColor="#191970"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADD IMAGES"
+                    android:textSize="14dp"
+                    android:textColor="#334249"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

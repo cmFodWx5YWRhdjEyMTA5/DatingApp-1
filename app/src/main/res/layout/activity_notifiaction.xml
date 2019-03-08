@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:alpha="0.70"
+    android:background="@drawable/backg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.brill.bdatingapp.NotifiactionActivity">
+<LinearLayout
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="140dp"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center_horizontal|center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        app:cardCornerRadius="10dp"
+        >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/nm"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Email Notification"
+               android:textColor="@android:color/black"
+               android:textStyle="bold"
+               android:textSize="20dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="20dp"/>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:background="@android:color/black"
+               android:layout_marginTop="10dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginEnd="30dp">
+
+           </View>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="5dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="New Message"
+                   android:textStyle="bold"
+                   android:textColor="@android:color/black"
+                   android:layout_marginStart="20dp"/>
+
+               <RadioGroup
+                   android:checkedButton="@id/newMessegeYes"
+                   android:id="@+id/newMessege"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginStart="122dp">
+
+               <RadioButton
+                   android:id="@+id/newMessegeYes"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Yes"/>
+
+               <RadioButton
+                   android:id="@+id/newMessegeNo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="No"/>
+
+               </RadioGroup>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="5dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Interested in Me"
+                   android:textStyle="bold"
+                   android:textColor="@android:color/black"
+                   android:layout_marginStart="20dp"/>
+
+               <RadioGroup
+                   android:checkedButton="@id/interestYes"
+                   android:id="@+id/interestedInMe"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginStart="105dp">
+
+
+               <RadioButton
+                   android:id="@+id/interestYes"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Yes"/>
+
+               <RadioButton
+                   android:id="@+id/interestNo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="No"/>
+
+               </RadioGroup>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="5dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Friend Request"
+                   android:textColor="@android:color/black"
+                   android:textStyle="bold"
+                   android:layout_marginStart="20dp"/>
+
+               <RadioGroup
+                   android:checkedButton="@id/friendRequestYes"
+                   android:id="@+id/friendRequest"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginStart="114sp">
+
+
+               <RadioButton
+                   android:id="@+id/friendRequestYes"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Yes"/>
+
+               <RadioButton
+                   android:id="@+id/friendRequestNo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="No"/>
+
+               </RadioGroup>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="5dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Profile Visitors"
+                   android:textStyle="bold"
+                   android:textColor="@android:color/black"
+                   android:layout_marginStart="20dp"/>
+
+               <RadioGroup
+                   android:checkedButton="@id/profileYes"
+                   android:id="@+id/profileVisitors"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginStart="113dp">
+
+
+               <RadioButton
+                   android:id="@+id/profileYes"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Yes"/>
+
+               <RadioButton
+                   android:id="@+id/profileNo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="No"/>
+
+               </RadioGroup>
+
+           </LinearLayout>
+
+           <Button
+               android:id="@+id/btnLogin"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Save"
+               android:layout_marginTop="20dp"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginBottom="10dp"
+               android:textAllCaps="false"
+               android:background="@drawable/rounded_bbtn_actn"
+               android:textColor="#ffffff"
+               />
+       </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</LinearLayout>

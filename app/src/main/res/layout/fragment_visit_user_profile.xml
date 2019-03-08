@@ -1,0 +1,491 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.bdating.VisitUserProfileFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_gen"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age Criteria"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_agecriteria"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_age"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Birthday"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_dob"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Interest"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_interest"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="City"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_city"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Relationship"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_relationship"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Looking for"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_lookingfor"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Education"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_qualiftn"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Know"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_know"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Drinking"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_drinking"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_country"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Skin Color"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_skincolor"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Eye color"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_eyecolor"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="State"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_state"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Smoking"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/text_user_smoking"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Work as"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+
+                    android:id="@+id/text_user_workas"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

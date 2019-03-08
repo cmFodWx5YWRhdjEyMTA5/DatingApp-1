@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@drawable/bckg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:layout_weight="7"
+    tools:context="com.example.brill.bdatingapp.MessageActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_marginBottom="5dp"
+            android:layout_weight="6.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/loadmore_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:stackFromEnd="true" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/dropView1"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="right"
+                android:background="@drawable/bkgd_transparent1"
+                android:drawableLeft="@drawable/dropii"
+                android:layout_marginRight="15dp"/>
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:background="#00000000"
+            android:weightSum="7"
+            >
+            <EditText
+                android:background="@drawable/rounded_edittext"
+                android:layout_weight="6"
+                android:id="@+id/edtMessage"
+                android:padding="10dp"
+                android:layout_marginRight="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+
+                android:hint="Enter Your Message"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btnSendMessage"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"
+                android:src="@drawable/ic_menu_send"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:clickable="true"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar1"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_centerVertical="true"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+
+        />
+
+
+
+
+
+
+</FrameLayout>

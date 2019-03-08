@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.brill.bdatingapp.UserProfileActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cover_photo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/backg"
+                android:scaleType="fitXY"/>
+            <Button
+                android:id="@+id/btnChangeCover"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Cover"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textAllCaps="false"
+                android:textSize="10dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_pic"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/backg"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="20dp">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/bttn_edit_profile_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_menu_camera"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="70dp"/>
+
+
+            <TextView
+                android:id="@+id/text_userpf_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="210dp"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:fontFamily="sans-serif"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/text_userpf_city_state_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                android:layout_marginTop="230dp"
+                android:layout_alignParentRight="true"
+                android:paddingRight="50dp"
+                android:layout_gravity="right"
+                android:fontFamily="sans-serif"
+                android:textSize="15dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical">
+            <ProgressBar
+                android:visibility="gone"
+                android:id="@+id/ProgressCover"
+                android:layout_weight="1"
+                android:foregroundGravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        app:tabMode="scrollable"
+        app:tabIndicatorColor="#ffffff"
+        app:tabIndicatorHeight="4dp"
+        app:tabPaddingStart="0dp"
+        app:tabPaddingEnd="0dp"
+        app:tabTextColor="#e91e63"
+        app:tabGravity="center"
+        android:background="@drawable/rounded_tab"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:textAllCaps="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+
+
+
+
+</LinearLayout>
+
+
+
+

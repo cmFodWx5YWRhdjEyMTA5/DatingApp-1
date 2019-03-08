@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="My profile" />
+
+        <item
+            android:id="@+id/photos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add Photos" />
+
+        <item
+            android:id="@+id/all_users"
+            android:icon="@drawable/ic_menu_chat"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Quick search"/>
+
+        <item
+            android:id="@+id/nav_adv_search"
+            android:icon="@drawable/ic_advancesearch_black_24dp"
+            android:title="Advance search"/>
+        <item
+            android:id="@+id/nav_friend_req"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="Nearby" />
+
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_mail_outline_black_24dp"
+            android:title="Message" />
+
+        <item
+            android:id="@+id/nav_online"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Friend Requests" />
+
+        <item
+            android:id="@+id/nav_ProfileVisitors"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="Profile Visitors" />
+
+        <item
+            android:id="@+id/nav_block_user"
+            android:icon="@drawable/ic_do_not_disturb_alt_black_24dp"
+            android:title="Block List"/>
+
+        <item
+            android:id="@+id/nav_likes"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="Likes" />
+
+        <item
+            android:id="@+id/nav_mambership"
+            android:icon="@drawable/ic_mambership_ind_black_24dp"
+            android:title="Membership" />
+
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/ic_textsms_black_24dp"
+            android:title="SMS" />
+        <item
+            android:id="@+id/nav_notifi"
+            android:icon="@drawable/ic_notifications_none_black_24dp"
+            android:title="Notification" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_down_black_24dp"
+            android:title="Feedback" />
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <gradient android:angle="90"
+                        android:endColor="#2a9ada"
+                        android:startColor="#2a9ada"
+                        android:type="linear"
+                        />
+                    <corners android:radius="100dp" />
+
+                    <padding android:bottom="6dp"
+                        android:left="30dp"
+                        android:right="20dp"
+                        android:top="6dp" />
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="right|bottom"
+                    android:src="@drawable/arrow" />
+                // you can use any other image here, instead of default_holo_dark_am
+            </item>
+        </layer-list>
+    </item>
+</selector>

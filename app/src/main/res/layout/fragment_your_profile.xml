@@ -1,0 +1,492 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brill.bdatingapp.fragments.your_profileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtGender"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age Criteria"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtAgeCrit"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtAge"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Education"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtEdu"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Birthday"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtDob"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Know"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtKnowLang"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtCountry"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Interest"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtIntrest"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="State"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtState"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Smoking"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtSmoking"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="City"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtCity"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Drinking"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtDrink"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Relationship"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtRelation"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Eye color"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtEyeColor"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Looking for"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtLookfor"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Skin Color"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtSkinColor"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+
+                android:gravity="center_horizontal|center_vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Work as"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:id="@+id/txtWorkas"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="#334249"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#333"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

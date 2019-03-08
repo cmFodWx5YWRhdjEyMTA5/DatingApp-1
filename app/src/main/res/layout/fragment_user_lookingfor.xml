@@ -1,0 +1,178 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.bdating.UserLookingforFragment">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:id="@+id/txtopenrel"
+              android:text="open relationsheep"
+                android:textSize="16dp"
+                android:padding="10dp"
+             android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:id="@+id/txtlivein"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+android:visibility="gone"
+                android:padding="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:id="@+id/txtonenightstand"
+                android:visibility="gone"
+                android:textSize="16dp"
+
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:id="@+id/txtfriendship"
+                android:visibility="gone"
+                android:textSize="16dp"
+
+                android:padding="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtonlydating"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtlongterm"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                  android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:id="@+id/txtfood"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                 android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtparty"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+               android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:id="@+id/txthiking"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:id="@+id/txtsecmarriage"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:id="@+id/txtmovie"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:padding="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:id="@+id/txttea"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_bbtn_actn"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

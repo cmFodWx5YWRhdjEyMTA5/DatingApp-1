@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brill.bdatingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission-sdk-23 android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_SMS" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bdlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bdlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity_GetPlanAndPrice" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="Search" />
+        <activity android:name=".Membership_plans" />
+        <activity android:name=".UploadPhotoActivity" />
+        <activity
+            android:name=".NotifiactionActivity"
+            android:label="Notification Preferences"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity android:name=".MessageActivity" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:label="Profile" />
+        <activity android:name=".User_Profile_DetailsActivity" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="SignUp" />
+        <activity
+            android:name=".AdvanceSearchActivity"
+            android:label="Advance Search" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:label="Change Password" />
+        <activity android:name=".ForgotPassword" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="Feedback" />
+        <activity android:name=".VisitUserProfileActivity" />
+        <activity android:name=".fragments.ChatListFragment" />
+        <activity android:name=".FriendList" />
+        <activity android:name=".FriendRequestList" />
+        <activity android:name=".FriendRequestUserProfileActivity" />
+        <activity
+            android:name=".BlockUserList"
+            android:label="Block List" />
+        <activity android:name=".LikesUserList" />
+        <activity
+            android:name=".CompleteYourProfie"
+            android:label="Complete Your Profile"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".UserMessages"
+            android:label="Messeges" />
+        <activity android:name=".ViewUserMessage" />
+        <activity
+            android:name=".ActivitySMSList"
+            android:label="SMS" />
+        <activity
+            android:name=".sendSmsActivity"
+            android:label="Send SMS" />
+        <activity
+            android:name=".FriendRequest"
+            android:label="Friend Request" />
+        <activity
+            android:name=".Like"
+            android:label="Like" />
+        <activity
+            android:name=".ImageSlider"
+            android:label="Image Slider" />
+
+        <meta-data
+            android:name="instamojo.orderauth.url"
+            android:value="http://www.brilltechno.com/bdating/android/access_token.php" />
+
+        <activity
+            android:name=".AllUsers"
+            android:label="All Users"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".OnlineUser"
+            android:label="Online Users"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".NearByActivity"
+            android:label="Nearby Users"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".ChatOnlineFriends"
+            android:label="Chat"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".ProfileVisitors"
+            android:label="Profile Visitors" />
+        <activity
+            android:name=".AddPhotos"
+            android:label="Add Photos"
+            android:parentActivityName=".Dashboard" />
+    </application>
+
+</manifest>

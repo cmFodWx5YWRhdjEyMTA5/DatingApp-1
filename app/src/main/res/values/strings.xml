@@ -1,0 +1,360 @@
+<resources>
+    <string name="app_name">Brill Dating</string>
+    <string name="title_activity_dashboard">Brill Dating</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">hello</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="gen">Gender</string>
+    <string-array name="list">
+        <item>Gender ?</item>
+    </string-array>
+    <!--// basic info-->
+
+    <string-array name="login_array">
+        <item>Gender?</item>
+        <item>Male</item>
+        <item>Female</item>
+
+
+    </string-array>
+
+
+    <string-array name="gender_array">
+        <item>Gender ?</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+    <string-array name="lookingfor_array">
+        <item>Looking for ?</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="relationStatus_array">
+        <item>Relationship Status ?</item>
+        <item>Single</item>
+        <item>Complicated</item>
+        <item>Engaged</item>
+        <item>Married</item>
+        <item>Separated</item>
+        <item>Widowed</item>
+    </string-array>
+
+    <string-array name="smoking_array">
+        <item>Smoking ?</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>Occasionally</item>
+    </string-array>
+
+    <string-array name="drink_array">
+        <item>Drinking ?</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>Occasionally</item>
+    </string-array>
+
+
+    <string-array name="education_array">
+        <item>Education ?</item>
+        <item>Secondary</item>
+        <item>Higher Secondary</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>Doctorate</item>
+    </string-array>
+
+    <string-array name="knowlang_array">
+        <item>Know Language ?</item>
+        <item>Hindi</item>
+        <item>English</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="minage_array">
+        <item>Min Age ?</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+    </string-array>
+
+    <string-array name="maxage_array">
+        <item>Max Age ?</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+    </string-array>
+
+    <string-array name="eyecolor_array">
+        <item>Eye Color ?</item>
+        <item>Brown</item>
+        <item>Black</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="skincolor_array">
+        <item>Skin Color ?</item>
+        <item>Fair</item>
+        <item>Dark</item>
+        <item>Average</item>
+    </string-array>
+
+    <string-array name="workas_array">
+        <item>Work As ?</item>
+        <item>Developer</item>
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Banker</item>
+    </string-array>
+
+    <string-array name="interast_array">
+        <item>Interests ?</item>
+        <item>Sports</item>
+        <item>Music</item>
+        <item>Movie</item>
+
+    </string-array>
+
+    <string-array name="country_list">
+        <item>India</item>
+        <item>USA</item>
+    </string-array>
+
+    <string-array name="state_list">
+        <item>Rajasthan</item>
+        <item>Mumbai</item>
+    </string-array>
+    <string-array name="city_list">
+        <item>Jaipur</item>
+        <item>Jodhpur</item>
+    </string-array>
+
+
+    <string-array name="list_item_name">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+    <string-array name="list_from">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="list_to">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+
+    </string-array>
+
+
+</resources>
